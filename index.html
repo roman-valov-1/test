@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+   <div class="navbar">
+      <div class="container">
+         <div class="navbar-body row">
+            <div class="col-xs-12 visible-xs">
+               <div class="navbar-mobile">
+                  <div class="burger-menu">
+                     <span></span>
+                     <span></span>
+                  </div>
+                  <div class="navbar-mobile__logo">
+                     <img src="img/Логотип.png" alt="">
+                  </div>
+                  <div class="navbar-mobile__icons"></div>
+               </div>
+            </div>
+            <div class="navbar-body__lang lang-navbar col-sm-2 col-md-2 col-lg-1 hidden-xs">
+               <a href="" class="lang-body__link lang-navbar__link_active">RU</a>
+               <span>/</span>
+               <a href="" class="lang-navbar__link">EN</a>
+               <span>/</span>
+               <a href="" class="lang-navbar__link">DE</a>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-8 hidden-xs">
+               <span class="navbar-body__location">Санкт-Петербург, ш. Революции д.69, оф. 511</span>
+            </div>
+            <div class="navbar-body__contacts contacts-navbar col-sm-4 col-md-4 col-lg-3 hidden-xs">
+               <a href="" class="contacts-navbar__mail">mail@mail.ru</a>
+               <a href="" class="contacts-navbar__phone">8(800)900-90-90</a>
+            </div>
+         </div>
+         <div class="body-mobile">
+            <div class="body-mobile__items">
+               <ul class="body-mobile__icons">
+                  <li class="body-mobile__icon"><a href=""><img src="img/location.png" alt=""></a></li>
+                  <li class="body-mobile__icon"><a href=""><img src="img/mail.png" alt=""></a></li>
+                  <li class="body-mobile__icon"><a href=""><img src="img/phone.png" alt=""></a></li>
+                  <li class="body-mobile__icon"><a href="">RU</a></li>
+                  <li class="body-mobile__icon"><a href="">EN</a></li>
+                  <li class="body-mobile__icon"><a href="">DE</a></li>
+               </ul>
+               <div class="body-mobile__location">Санкт-Петербург, ш. Революции д.69, оф. 511</div>
+               <form class="body-mobile__search">
+                  <button type="submit"><img src="img/поиск.png" alt=""></button>
+                  <input type="text" name="" id="" placeholder="Я ищу...">
+                  <button type="reset"><img src="img/delete.png" alt=""></button>
+               </form>
+            </div>
+         </div>
+         <div class="navbar-footer hidden-xs">
+            <div class="navbar-footer__logo">
+               <img src="img/Логотип.png" alt="">
+            </div>
+            <div class="navbar-footer__menu menu-footer">
+               <ul data-da="body-mobile__items,3,767" class="menu-footer__list">
+                  <li><a href="" class="menu-footer__link">Главная</a></li> 
+                  <li>
+                     <a href="" class="menu-footer__link _hover">Услуги</a>
+                     <span class="arrow-down__first-level"></span>  
+                     <ul class="submenu-footer__list">
+                        <li><a href="" class="submenu-footer__link">Услуга 1</a></li>
+                        <li>
+                           <a href="" class="submenu-footer__link submenu-footer__link_hover">Услуга 2</a>
+                           <span class="arrow-down__second-level"></span>  
+                           <ul class="sub-submenu-footer__list">
+                              <li><a href="" class="sub-submenu-footer__link">Услуга 2.1</a></li>
+                              <li><a href="" class="sub-submenu-footer__link">Услуга 2.2</a></li>
+                              <li><a href="" class="sub-submenu-footer__link">Услуга 2.3</a></li>
+                              <li><a href="" class="sub-submenu-footer__link">Услуга 2.4</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="" class="submenu-footer__link">Услуга 3</a></li>
+                        <li><a href="" class="submenu-footer__link">Услуга 4</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="" class="menu-footer__link">О компании</a></li>
+                  <li><a href="" class="menu-footer__link">Новости</a></li>
+                  <li><a href="" class="menu-footer__link">Фотогалерея</a></li>
+                  <li><a href="" class="menu-footer__link">Цены</a></li>
+                  <li><a href="" class="menu-footer__link">Блоки</a></li>
+                  <li><a href="" class="menu-footer__link">Контакты</a></li>
+               </ul>
+            </div>
+            <div class="navbar-footer__icons icons-navbar">
+               <div class="icons-navbar__search">
+                  <a href=""><img src="img/поиск.png" alt=""></a>
+               </div>
+               <div data-da="navbar-mobile__icons,0,767" class="icons-navbar__login">
+                  <a href=""><img src="img/вход в личный кабинет.png" alt=""></a>
+               </div>
+               <div data-da="navbar-mobile__icons,1,767" class="icons-navbar__cart cart-icon">
+                  <img src="img/корзина.png" alt="">
+                  <span>7</span>
+                  <div class="cart-icon__body">
+                     <div class="cart-icon__items">
+                        <div class="cart-icon__item item-cart">
+                           <div class="item-cart__img">
+                              <img src="img/product.png" alt="">
+                           </div>
+                           <div class="item-cart__info">
+                              <div class="item-cart__name">Наименование товара</div>
+                              <div class="item-cart__articul">Артикул</div>
+                              <div class="item-cart__price">500 &#x20bd</div>
+                           </div>
+                           <div class="item-cart__value">1 ШТ</div>
+                           <div class="item-cart__total-price">500 &#x20bd</div>
+                           <div class="item-cart__delete">
+                              <a href=""><img src="img/delete.png" alt=""> </a>
+                           </div>
+                        </div>
+                        <div class="cart-icon__item item-cart">
+                           <div class="item-cart__img">
+                              <img src="img/product.png" alt="">
+                           </div>
+                           <div class="item-cart__info">
+                              <div class="item-cart__name">Наименование товара</div>
+                              <div class="item-cart__articul">Артикул</div>
+                              <div class="item-cart__price">500 &#x20bd</div>
+                           </div>
+                           <div class="item-cart__value">1 ШТ</div>
+                           <div class="item-cart__total-price">500 000 &#x20bd</div>
+                           <div class="item-cart__delete">
+                              <a href=""><img src="img/delete.png" alt=""> </a>
+                           </div>
+                        </div>
+                        <div class="cart-icon__item item-cart">
+                           <div class="item-cart__img">
+                              <img src="img/product.png" alt="">
+                           </div>
+                           <div class="item-cart__info">
+                              <div class="item-cart__name">Наименование товара</div>
+                              <div class="item-cart__articul">Артикул</div>
+                              <div class="item-cart__price">500 &#x20bd</div>
+                           </div>
+                           <div class="item-cart__value">1 ШТ</div>
+                           <div class="item-cart__total-price">500 &#x20bd</div>
+                           <div class="item-cart__delete">
+                              <a href=""><img src="img/delete.png" alt=""> </a>
+                           </div>
+                        </div>
+                        <div class="cart-icon__item item-cart">
+                           <div class="item-cart__img">
+                              <img src="img/product.png" alt="">
+                           </div>
+                           <div class="item-cart__info">
+                              <div class="item-cart__name">Наименование товара</div>
+                              <div class="item-cart__articul">Артикул</div>
+                              <div class="item-cart__price">500 &#x20bd</div>
+                           </div>
+                           <div class="item-cart__value">1 ШТ</div>
+                           <div class="item-cart__total-price">500 &#x20bd</div>
+                           <div class="item-cart__delete">
+                              <a href=""><img src="img/delete.png" alt=""> </a>
+                           </div>
+                        </div>
+                        <div class="cart-icon__item item-cart">
+                           <div class="item-cart__img">
+                              <img src="img/product.png" alt="">
+                           </div>
+                           <div class="item-cart__info">
+                              <div class="item-cart__name">Наименование товара</div>
+                              <div class="item-cart__articul">Артикул</div>
+                              <div class="item-cart__price">500 &#x20bd</div>
+                           </div>
+                           <div class="item-cart__value">1 ШТ</div>
+                           <div class="item-cart__total-price">500 &#x20bd</div>
+                           <div class="item-cart__delete">
+                              <a href=""><img src="img/delete.png" alt=""> </a>
+                           </div>
+                        </div>
+                        <div class="cart-icon__item item-cart">
+                           <div class="item-cart__img">
+                              <img src="img/product.png" alt="">
+                           </div>
+                           <div class="item-cart__info">
+                              <div class="item-cart__name">Наименование товара</div>
+                              <div class="item-cart__articul">Артикул</div>
+                              <div class="item-cart__price">500 &#x20bd</div>
+                           </div>
+                           <div class="item-cart__value">1 ШТ</div>
+                           <div class="item-cart__total-price">500 &#x20bd</div>
+                           <div class="item-cart__delete">
+                              <a href=""><img src="img/delete.png" alt=""> </a>
+                           </div>
+                        </div>
+                        <div class="cart-icon__item item-cart">
+                           <div class="item-cart__img">
+                              <img src="img/product.png" alt="">
+                           </div>
+                           <div class="item-cart__info">
+                              <div class="item-cart__name">Наименование товара</div>
+                              <div class="item-cart__articul">Артикул</div>
+                              <div class="item-cart__price">500 &#x20bd</div>
+                           </div>
+                           <div class="item-cart__value">1 ШТ</div>
+                           <div class="item-cart__total-price">500 &#x20bd</div>
+                           <div class="item-cart__delete">
+                              <img src="img/delete.png" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <div class="cart-icon__footer">
+                        <div class="cart-icon__total-price">
+                           Итого:<span> 500 &#x20bd</span>
+                        </div>
+                        <a href="" class="cart-icon__to-cart-page">Перейти в корзину</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>      
+      </div>
+   </div>
+
+   <script type="text/javascript">
+      WebFontConfig = {
+        google: { families: [ 'Open+Sans:400,300,600,700:latin,cyrillic' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })(); 
+    </script>
+    <script src="js/dynamic_adaptive.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
