@@ -24,8 +24,9 @@
 }
 .navbar-mobile__icons {
    display: flex;
-   width: 40px;
+   min-width: 45px;
    justify-content: space-between;
+   align-items: center;
 }
 .burger-menu {
    display: block;
